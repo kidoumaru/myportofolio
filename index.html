@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mahardika Bintang Ramadhan | Portfolio</title>
+  
+  <!-- Google Fonts: Poppins, Inter, Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom Pure CSS (No Framework) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Background Lighting -->
+  <div class="ambient-glow-1"></div>
+  <div class="ambient-glow-2"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="header">
+    <div class="container">
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        Mahardika<span class="logo-accent">.</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle Button -->
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-menu-links">
+        <li><a href="#home" class="mobile-nav-link active">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#services" class="mobile-nav-link">Services</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Intro Details -->
+          <div class="hero-content">
+            <p class="hero-greeting">Hello, <span class="accent-text">I'm</span></p>
+            <h1 class="hero-name">Mahardika Bintang</h1>
+            <h2 class="hero-title">Software Engineer & Web Developer</h2>
+            
+            <p class="hero-bio">
+              <span class="hero-quote">"Crafting Code. Solving Problems. Building the Future."</span>
+              Siswa Rekayasa Perangkat Lunak dari SMKN 20 Jakarta yang antusias dalam merancang dan mengembangkan aplikasi web interaktif, modern, dan fungsional.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Let's Talk</a>
+              <a href="#projects" class="btn btn-outline">Lihat Proyek</a>
+            </div>
+
+            <!-- Social Media Icons Row -->
+            <div class="social-links">
+              <a href="https://github.com/Kidoumaru" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/mahardika-bintang-ramadhan-11028143b" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="https://instagram.com/kidoumaru99" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://wa.me/6285150918632" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Neon Mint Hexagon Portrait -->
+          <div class="hero-portrait">
+            <div class="hex-wrapper">
+              <div class="hex-glow"></div>
+              <div class="hex-outer">
+                <div class="hex-inner">
+                  <img src="foto-profil.jpeg" alt="Foto Profil Mahardika Bintang Ramadhan">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT ME SECTION ==================== -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Column: Hexagon Portrait -->
+          <div class="about-portrait">
+            <div class="hex-wrapper">
+              <div class="hex-glow"></div>
+              <div class="hex-outer">
+                <div class="hex-inner">
+                  <img src="foto-profil.jpeg" alt="Mahardika Bintang">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Intro & Education -->
+          <div class="about-content">
+            <span class="section-label">My Intro</span>
+            <h2 class="section-title">About Me</h2>
+            <p class="about-desc">
+              Perkenalkan, saya Mahardika Bintang Ramadhan, siswa SMK jurusan Rekayasa Perangkat Lunak (RPL) di SMKN 20 Jakarta yang sangat tertarik pada dunia pemrograman, web development, dan desain antarmuka aplikasi.
+            </p>
+            <p class="about-desc">
+              Saya memiliki pengetahuan dalam pembuatan antarmuka responsif (UI/UX), logika pemrograman terstruktur, serta pengelolaan database relasional. Terbiasa bekerja secara mandiri maupun berkolaborasi dalam tim untuk memberikan hasil berkualitas tinggi.
+            </p>
+
+            <!-- Education Timeline -->
+            <div class="education-block">
+              <h3 class="education-title">
+                <i class="fa-solid fa-graduation-cap"></i> Riwayat Pendidikan
+              </h3>
+              <ul class="timeline-list">
+                <li class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <p class="timeline-school">SMKN 20 JAKARTA</p>
+                  <p class="timeline-year">2024 - Sekarang</p>
+                  <p class="timeline-major">Rekayasa Perangkat Lunak (RPL)</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <p class="timeline-school">SMPN 212 JAKARTA</p>
+                  <p class="timeline-year">2021 - 2024</p>
+                </li>
+                <li class="timeline-item">
+                  <span class="timeline-dot"></span>
+                  <p class="timeline-school">MI NURUL HIDAYAH PG</p>
+                  <p class="timeline-year">2015 - 2021</p>
+                </li>
+              </ul>
+            </div>
+
+            <a href="#contact" class="btn btn-primary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WHAT I DO (SERVICES) ==================== -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">My Services</span>
+          <h2 class="section-title">What I Do</h2>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="service-title">Web Developer</h3>
+            <p class="service-desc">
+              Pengembangan website modern, interaktif, dan responsif menggunakan teknologi web standar terkini dengan performa cepat dan kode terstruktur.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-layer-group"></i>
+            </div>
+            <h3 class="service-title">UI/UX Designer</h3>
+            <p class="service-desc">
+              Perancangan antarmuka pengguna web dan mobile yang intuitif, estetis, dan ramah pengguna dengan fokus pada kemudahan navigasi serta konsistensi visual.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i class="fa-solid fa-database"></i>
+            </div>
+            <h3 class="service-title">Software Engineering</h3>
+            <p class="service-desc">
+              Implementasi logika back-end, integrasi database MySQL, pengujian sistem, dan pemecahan masalah algoritma untuk menghasilkan aplikasi yang tangguh.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MY SKILLS SECTION ==================== -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="skills-grid">
+          <!-- Left: Skills Intro -->
+          <div class="skills-intro">
+            <span class="section-label">Favorite Skills</span>
+            <h2 class="section-title">Skill Saya</h2>
+            <p class="skills-intro-desc">
+              Lihat secara lengkap keahlian dan kompetensi teknis yang saya kuasai untuk mengembangkan proyek aplikasi web berkualitas tinggi dan fungsional.
+            </p>
+            <a href="#projects" class="btn btn-primary">See Projects</a>
+          </div>
+
+          <!-- Right: Numbered Skills List (Exact match to reference mockup) -->
+          <div class="skills-numbered-grid">
+            <div class="skill-numbered-item">
+              <span class="skill-num">01.</span>
+              <span class="skill-name">HTML & CSS</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">02.</span>
+              <span class="skill-name">JavaScript</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">03.</span>
+              <span class="skill-name">PHP & MySQL</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">04.</span>
+              <span class="skill-name">Tailwind CSS</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">05.</span>
+              <span class="skill-name">Git & GitHub</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">06.</span>
+              <span class="skill-name">UI/UX Design</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">07.</span>
+              <span class="skill-name">Responsive Web</span>
+            </div>
+            <div class="skill-numbered-item">
+              <span class="skill-num">08.</span>
+              <span class="skill-name">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack Icon Badges -->
+        <div class="tech-badges-container">
+          <p class="tech-badges-title">Teknologi yang saya kuasai</p>
+          <div class="tech-badges-grid">
+            <div class="tech-badge">
+              <i class="fa-brands fa-html5"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="tech-badge">
+              <i class="fa-brands fa-css3-alt"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="tech-badge">
+              <i class="fa-brands fa-js"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="tech-badge">
+              <i class="fa-brands fa-php"></i>
+              <span>PHP</span>
+            </div>
+            <div class="tech-badge">
+              <i class="fa-solid fa-database"></i>
+              <span>MySQL</span>
+            </div>
+            <div class="tech-badge">
+              <i class="fa-solid fa-wind"></i>
+              <span>Tailwind CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+<!-- ==================== RECENT PROJECTS SECTION ==================== -->
+<section id="projects" class="projects-section">
+    <div class="container">
+
+        <div class="section-header">
+            <span class="section-label">My Work</span>
+            <h2 class="section-title">Recent Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+
+            <!-- Project 1: Web Bank Syariah -->
+            <article class="project-card">
+
+                <div class="project-thumbnail">
+                    <img
+                        src="web-lps.jpeg"
+                        alt="Screenshot Web Bank Syariah"
+                        class="project-screenshot"
+                    >
+                    <span class="project-badge-pill">Perbankan</span>
+                </div>
+
+                <div class="project-body">
+
+                    <h3 class="project-title">
+                        Web Bank Syariah (LPS)
+                    </h3>
+
+                    <p class="project-desc">
+                        Membuat website simulasi layanan perbankan yang
+                        menampilkan informasi produk bank syariah dan
+                        alur transaksi sederhana untuk edukasi finansial.
+                    </p>
+
+                    <ul class="project-tags">
+                        <li class="project-tag">HTML</li>
+                        <li class="project-tag">CSS</li>
+                        <li class="project-tag">JavaScript</li>
+                        <li class="project-tag">PHP</li>
+                    </ul>
+
+                    <div class="project-actions">
+
+                        <button
+                            class="project-link-btn"
+                            onclick="openModal(
+                                'Web Bank Syariah (LPS)',
+                                'Proyek ini adalah pembuatan website simulasi layanan perbankan yang dirancang khusus sebagai media pembelajaran. Melalui website ini, siswa dapat melihat informasi produk perbankan syariah dan melakukan simulasi alur transaksi dasar. Fokus utamanya adalah membangun antarmuka yang ramah pengguna serta mengelola logika database sederhana di sisi back-end.',
+                                'HTML, CSS, JavaScript, PHP'
+                            )"
+                        >
+                            Detail Proyek
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                        <a
+                            href="https://github.com/Kidoumaru"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-github-btn"
+                            title="View Source"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- Project 2: Web Galeri Sekolah -->
+            <article class="project-card">
+
+                <div class="project-thumbnail">
+                    <img
+                        src="web-galeri.jpg"
+                        alt="Screenshot Web Galeri Sekolah"
+                        class="project-screenshot"
+                    >
+                    <span class="project-badge-pill">Galeri Web</span>
+                </div>
+
+                <div class="project-body">
+
+                    <h3 class="project-title">
+                        Web Galeri Sekolah
+                    </h3>
+
+                    <p class="project-desc">
+                        Merancang dan membuat website galeri interaktif
+                        untuk menampilkan kumpulan dokumentasi kegiatan
+                        serta fasilitas sekolah dengan antarmuka dinamis.
+                    </p>
+
+                    <ul class="project-tags">
+                        <li class="project-tag">HTML</li>
+                        <li class="project-tag">Tailwind CSS</li>
+                        <li class="project-tag">JavaScript</li>
+                    </ul>
+
+                    <div class="project-actions">
+
+                        <button
+                            class="project-link-btn"
+                            onclick="openModal(
+                                'Web Galeri Sekolah',
+                                'Sistem galeri interaktif yang dirancang untuk mendokumentasikan kegiatan dan fasilitas sekolah. Web ini dilengkapi dengan fitur kategorisasi foto dan grid layout yang responsif, memastikan gambar tetap terlihat proporsional dan menarik baik saat diakses dari laptop maupun smartphone pelajar.',
+                                'HTML, Tailwind CSS, JavaScript'
+                            )"
+                        >
+                            Detail Proyek
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                        <a
+                            href="https://github.com/Kidoumaru"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-github-btn"
+                            title="View Source"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <!-- Project 3: Website Gudskul -->
+            <article class="project-card">
+
+                <div class="project-thumbnail">
+                    <img
+                        src="web-gudsku.jpeg"
+                        alt="Screenshot Website Gudskul"
+                        class="project-screenshot"
+                    >
+                    <span class="project-badge-pill">UI/UX & Web</span>
+                </div>
+
+                <div class="project-body">
+
+                    <h3 class="project-title">
+                        Pengembangan Web Gudskul
+                    </h3>
+
+                    <p class="project-desc">
+                        Pengembangan dan optimalisasi antarmuka website
+                        Gudskul, penambahan fitur-fitur interaktif,
+                        serta pengujian kualitas dan perbaikan bug.
+                    </p>
+
+                    <ul class="project-tags">
+                        <li class="project-tag">PHP</li>
+                        <li class="project-tag">MySQL</li>
+                        <li class="project-tag">UI/UX</li>
+                    </ul>
+
+                    <div class="project-actions">
+
+                        <button
+                            class="project-link-btn"
+                            onclick="openModal(
+                                'Pengembangan Web Gudskul',
+                                'Proyek kolaboratif dalam pengelolaan website Gudskul. Peran saya mencakup penyesuaian UI/UX, penambahan fitur-fitur baru pada website, serta pengelolaan konten. Selain itu, saya juga bertanggung jawab melakukan tahap pengujian (testing) dan debugging untuk memastikan website berjalan responsif tanpa error.',
+                                'PHP, MySQL, UI/UX'
+                            )"
+                        >
+                            Detail Proyek
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                        <a
+                            href="https://github.com/Kidoumaru"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-github-btn"
+                            title="View Source"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </article>
+
+            
+<!-- Project 4: TALOG20 -->
+<article class="project-card">
+    <div class="project-thumbnail">
+        <img src="talog.jpeg" alt="TALOG20" class="project-screenshot">
+        <span class="project-badge-pill">Web Application</span>
+    </div>
+    <div class="project-body">
+        <h3 class="project-title">TALOG20 - Sistem Manajemen Tugas Akhir</h3>
+        <p class="project-desc">
+            Aplikasi web untuk membantu pengelolaan dan pemantauan Tugas Akhir
+            siswa SMKN 20 Jakarta. Memiliki fitur pengelolaan tugas, pemantauan
+            progres siswa, sistem penilaian, serta ekspor rekap nilai ke Excel.
+        </p>
+        <div class="project-tags">
+            <span class="project-tag">Laravel</span>
+            <span class="project-tag">PHP</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">Tailwind CSS</span>
+            <span class="project-tag">Alpine.js</span>
+        </div>
+        <div class="project-actions">
+            <button class="project-link-btn" onclick="openModal(
+                'TALOG20 - Sistem Manajemen Tugas Akhir',
+                'Aplikasi web untuk membantu pengelolaan dan pemantauan Tugas Akhir siswa SMKN 20 Jakarta. Memiliki tiga jenis akun yaitu Admin, Guru, dan Siswa. Dilengkapi pengelolaan tugas, pemantauan progres, sistem penilaian otomatis, dan ekspor rekap nilai ke Excel.',
+                ['Laravel', 'PHP', 'MySQL', 'Tailwind CSS', 'Alpine.js', 'GSAP', 'Three.js']
+            )">
+                Detail Proyek
+            </button>
+            <a href="https://github.com/DYoures/talogsmkn20"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="project-github-btn"
+               aria-label="GitHub TALOG20">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+</article>
+
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- ==================== CONTACT ME SECTION ==================== -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title">Contact Me</h2>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Contact Form (Matches reference mockup input styling) -->
+          <form id="contact-form" class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <input type="text" id="contact-name" class="form-input" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="contact-email" class="form-input" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea id="contact-message" class="form-textarea" placeholder="Enter your message" rows="5" required></textarea>
+            </div>
+            <div class="form-submit-container">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </div>
+          </form>
+
+          <!-- Contact Cards Row -->
+          <div class="contact-info-grid">
+            <a href="mailto:mahardikabintang288@gmail.com" class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">Email</span>
+                <span class="contact-info-val">mahardikabintang288@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="https://wa.me/6285150918632" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">WhatsApp</span>
+                <span class="contact-info-val">+62 85150918632</span>
+              </div>
+            </a>
+
+            <div class="contact-info-card">
+              <div class="contact-info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">Lokasi</span>
+                <span class="contact-info-val">Ragunan, Pasar Minggu, Jakarta</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-info">
+          <h3 class="footer-name">Mahardika Bintang Ramadhan</h3>
+          <p class="footer-role">Software Engineer & Web Developer</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/Kidoumaru" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/mahardika-bintang-ramadhan-11028143b" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com/kidoumaru99" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/6285150918632" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">
+          Designed & Built by <span>Mahardika Bintang Ramadhan</span> &copy; 2026. All Rights Reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DETAIL MODAL ==================== -->
+  <div id="project-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" onclick="closeModal()" aria-label="Tutup jendela modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h3 id="modal-title" class="modal-title">Judul Proyek</h3>
+      <div class="modal-divider"></div>
+
+      <p id="modal-desc" class="modal-desc">
+        Deskripsi proyek akan dimuat di sini...
+      </p>
+
+      <div>
+        <p class="modal-tech-label">Teknologi yang Digunakan:</p>
+        <ul id="modal-tech-list" class="modal-tech-list">
+          <!-- Populated dynamically via JS -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span class="toast-msg">Notifikasi</span>
+  </div>
+
+  <!-- Pure Custom JavaScript -->
+  <script src="index.js"></script>
+</body>
+</html>
